@@ -3,10 +3,11 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
-	color: black; 
+	color: #cccccc;
 	line-height: 1.25;
-	background: url(images/hipster-line.gif')  no-repeat;
+	background: url(../images/hipster-line.gif)  no-repeat;
 }
+
 
 #container {
 	margin: 0 auto;
@@ -36,16 +37,16 @@ p {
 
 header h2 {
   font-size: 16px;
-  color: #;
+  color: #cccccc;
   font-family: Courier;
 }
 
-header h3 {
+header h1 {
   font-size: 100px;
   padding: 0;
   margin: 0;
   padding-top: 10px;
-  color: #333;
+  color: #cccccc;
   line-height: .7;
   font-family: Courier;
   letter-spacing: -2px;
@@ -59,7 +60,7 @@ h2 {
   margin: 4px 0;
   font-weight: normal;
   padding: 0;
-  color: #999;
+  color: #999999;
   font-family: Courier;
   line-height: 2.8em;
 }
@@ -68,9 +69,6 @@ a {
 	color: #ccc;
 	text-decoration: none;
 }
-	a:visited, a:hover, a:active {
-		color: #000;
-	}
 
 img.frame {
 	padding: 100px;
