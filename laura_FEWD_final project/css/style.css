@@ -1,0 +1,121 @@
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+header{
+     background-image: url(../images/palm_tree_header.jpg);
+     background-repeat: repeat-x;
+     background-position: 0px -100px;
+     height: 250px;
+}
+
+h1{
+	color: #ff1326;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 80px;
+    margin-top: -8px;
+}
+
+h1.face {
+  width: 290px;
+  height: 290px;
+  background: url(../images/buscabulla_face.png);
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: 825px;
+}
+
+body{
+    background-color: #fef4eb;
+}
+
+#slider {
+  background-image: url(../images/Buscabulla_feet.jpg);
+  width: 960px;
+  height: 400px;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-style: bold;
+  color: #420179;
+}
+
+#download-top{
+    width: 300px;
+    height: 140px;
+    background-image: url(../images/download top.jpg);
+}
+
+#download-bottom{
+    width: 300px;
+    height: 140px;
+    color:#ff1326;
+}
+
+#gallery{
+    width: 300px;
+    height: 300px;
+    color:#ff1326;
+}
+
+#follow{
+    width: 300px;
+    height: 300px;
+    color:#ff1326;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav li {
+	float: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav li a {
+	display: block;
+}
+
+li {
+    float: left;
+    list-style: none;
+
+}
+
+#socialmedia li a {
+    display: block;
+    background-image: url(../images/socialNav.png);
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    float: right;
+}
+
+.linkedin a { background-position: 0px 64px; }
+.twitter a { background-position: -60px 64px; }
+.facebook a { background-position: -120px 64px; }
+.rss a { background-position: -180px 64px; }
+
+.linkedin a:hover { background-position: 0px 0px; }
+.twitter a:hover { background-position: -60px 0px; }
+.facebook a:hover { background-position: -120px 0px; }
+.rss a:hover { background-position: -180px 0px; }
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+
+}
+/*#socialmedia li a {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+}*/
