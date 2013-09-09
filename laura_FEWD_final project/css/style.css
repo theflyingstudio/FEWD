@@ -8,27 +8,35 @@
     height: 0;
 }
 
-header{
+header {
      background-image: url(../images/palm_tree_header.jpg);
      background-repeat: repeat-x;
      background-position: 0px -100px;
      height: 250px;
 }
 
-h1{
+#header-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1.title {
 	color: #ff1326;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 80px;
-    margin-top: -8px;
+  margin-top: 0px;
+  margin-left: 340px;
+  padding-top: 100px;
 }
 
 h1.face {
   width: 290px;
   height: 290px;
   background: url(../images/buscabulla_face.png);
-  margin-top: -100px;
+  float: left;
+  /*margin-top: -100px;
   margin-left: auto;
-  margin-right: 825px;
+  margin-right: 825px;*/
 }
 
 body{
@@ -42,33 +50,45 @@ body{
 }
 
 p{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open+Sans', sans-serif;
   font-style: bold;
   color: #420179;
 }
 
-#download-top{
+#download{
+float: left;
+width: 300px;
+height: 300px;
+}
+
+#download-top {
     width: 300px;
     height: 140px;
-    background-image: url(../images/download top.jpg);
+    background-image: url("../images/download top.jpg");
+    margin-bottom: 20px;
 }
 
-#download-bottom{
+#download-bottom {
     width: 300px;
     height: 140px;
-    color:#ff1326;
+    background-color: red;
 }
 
-#gallery{
+#gallery {
     width: 300px;
     height: 300px;
-    color:#ff1326;
+    background-color: green;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+
 }
 
-#follow{
+#follow {
     width: 300px;
     height: 300px;
-    color:#ff1326;
+    background-color: blue;
+    float: left;
 }
 
 #container {
@@ -79,6 +99,8 @@ p{
 nav li {
 	float: left;
     font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: #ff1326;
 }
 
 nav li a {
@@ -88,7 +110,6 @@ nav li a {
 li {
     float: left;
     list-style: none;
-
 }
 
 #socialmedia li a {
@@ -111,9 +132,13 @@ li {
 .rss a:hover { background-position: -180px 0px; }
 
 footer {
-    font-family: 'Quicksand', sans-serif;
-
+    font-family: 'Open+Sans', sans-serif;
+    width: 960px;
+    height: 300px;
+    color:#ff1326;
 }
+
+
 /*#socialmedia li a {
     transition: 1s;
     -webkit-transition: 1s;

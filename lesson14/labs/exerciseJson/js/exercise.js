@@ -11,17 +11,26 @@
  * - drink: "Apple Juice"
  * - price: 3.50
  */
-
+var lunch = {
+ sandwich: "Peanut Butter",
+ drink: "Apple Juice",
+ price: 3.50
+}
 
 /**
  * Question 2
- * Convert lunch to JSON and store it in the variable 'q2'
- */
+ * Convert lunch to JSON and store it in the variable 'q2'; stringify turns attributes into a string.
+ ex:
 
+ q2
+"{"sandwich":"Peanut Butter","drink":"Apple Juice","price":3.5}"
+ */
+var q2 = JSON.stringify(lunch)
 
 /**
  * Question 3
- * Using the methods dicussed in class, convert the JSON string stored in q2 
- * back into an object. Store it in 'q3'
+ * Using the methods dicussed in class, convert the JSON string stored in q2
+ * back into an object. Store it in 'q3'; this does the opposite to stringify.
  */
+var q3 = JSON.parse(q2)
 
