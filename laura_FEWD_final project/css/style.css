@@ -9,10 +9,11 @@
 }
 
 header {
-     background-image: url(../images/palm_tree_header.jpg);
+     background-image: url("../images/header.png");
      background-repeat: repeat-x;
      background-position: 0px -100px;
      height: 250px;
+     background-color: transparent;
 }
 
 #header-wrapper {
@@ -21,74 +22,97 @@ header {
 }
 
 h1.title {
-	color: #ff1326;
+	color: #e4ddb1;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 80px;
+	font-size: 75px;
   margin-top: 0px;
-  margin-left: 340px;
-  padding-top: 100px;
+  margin-left: 320px;
+  padding-top: 75px;
 }
 
 h1.face {
-  width: 290px;
-  height: 290px;
-  background: url(../images/buscabulla_face.png);
+  width: 306px;
+  height: 313px;
+  background: url("../images/buscabulla_face.png");
   float: left;
-  /*margin-top: -100px;
-  margin-left: auto;
-  margin-right: 825px;*/
+}
+
+#menu{
+color: #774c67;
+text-decoration: none;
+cursor: auto;
 }
 
 body{
-    background-color: #fef4eb;
+    background-image: url("../images/beach_bg_light.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
-#slider {
-  background-image: url(../images/Buscabulla_feet.jpg);
+#cover {
+  background-image: url("../images/cover.jpg");
   width: 960px;
   height: 400px;
 }
 
-p{
-  font-family: 'Open+Sans', sans-serif;
-  font-style: bold;
-  color: #420179;
+audio{
+  margin-left: 315px;
+  margin-top: 60px;
 }
 
-#download{
+p{
+  font-family: 'Rokkitt', sans-serif;
+  font-style: bold;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  padding: 12px;
+}
+
+.pbox{
+  width: 960px;
+  background-color: #dfad7c;
+  opacity: 0.7;
+  margin-top: 60px;
+}
+
+#connect{
 float: left;
 width: 300px;
 height: 300px;
 }
 
-#download-top {
+#connect-top {
     width: 300px;
     height: 140px;
-    background-image: url("../images/download top.jpg");
+    background-image: url("../images/connect top.jpg");
     margin-bottom: 20px;
+    margin-top: 80px;
 }
 
-#download-bottom {
+#connect-bottom {
     width: 300px;
     height: 140px;
-    background-color: red;
+    background-image: url("../images/connect bottom.jpg");
 }
 
-#gallery {
+#watch {
     width: 300px;
     height: 300px;
-    background-color: green;
+    background-image: url("../images/watch.jpg");
     float: left;
     margin-right: 30px;
     margin-left: 30px;
-
+    margin-top: 80px;
 }
 
-#follow {
+#listen {
     width: 300px;
     height: 300px;
-    background-color: blue;
+    background-image: url("../images/listen.jpg");
     float: left;
+    margin-top: 80px;
 }
 
 #container {
@@ -97,14 +121,20 @@ height: 300px;
 }
 
 nav li {
-	float: left;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+	 float: left;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 20px;
     color: #ff1326;
+    list-style: none;
+    margin: 24px;
+    font-weight: bold;
 }
 
 nav li a {
 	display: block;
+  color: #774c67;
+  text-decoration: none;
+  cursor: auto;
 }
 
 li {
@@ -112,35 +142,18 @@ li {
     list-style: none;
 }
 
-#socialmedia li a {
-    display: block;
-    background-image: url(../images/socialNav.png);
-    width: 60px;
-    height: 60px;
-    text-indent: -9999px;
-    float: right;
-}
-
-.linkedin a { background-position: 0px 64px; }
-.twitter a { background-position: -60px 64px; }
-.facebook a { background-position: -120px 64px; }
-.rss a { background-position: -180px 64px; }
-
-.linkedin a:hover { background-position: 0px 0px; }
-.twitter a:hover { background-position: -60px 0px; }
-.facebook a:hover { background-position: -120px 0px; }
-.rss a:hover { background-position: -180px 0px; }
-
 footer {
-    font-family: 'Open+Sans', sans-serif;
-    width: 960px;
-    height: 300px;
-    color:#ff1326;
+    font-family: 'Rokkitt', sans-serif;
+    background-image: url("../images/header.png");
+     background-repeat: repeat-x;
+     background-position: 0px -145px;
+     height: 250px;
+     background-color: transparent;
+  }
+
+#pfooter{
+  width: 960px;
+  opacity: 0.7;
+  margin-top: 60px;
 }
 
-
-/*#socialmedia li a {
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-}*/

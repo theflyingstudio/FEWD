@@ -69,3 +69,33 @@ Presten también sus oidos a SONOSOLAR un mixtape de verano que contiene el senci
 nuevos se combinan en un viaje que evoca playas perdidas y galaxias tropicales." Dice la dj, artista, 
 diseñadora puertorriqueña radicada en Brooklyn; Raquel Berrios aka Buscabulla.
 
+
+<div id="socialmedia">
+			    	<ul class="clearfix">
+				        <li class="linkedin"><a href="#">LinkedIn</a></li>
+				        <li class="twitter"><a href="#">Twitter</a></li>
+				        <li class="facebook"><a href="#">Facebook</a></li>
+				        <li class="rss"><a href="#">RSS</a></li>
+			    	</ul>
+			    </div>
+
+
+#socialmedia li a {
+    display: block;
+    background-image: url(../images/socialNav.png);
+    width: 64px;
+    height: 56px;
+    text-indent: -9999px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.linkedin a { background-position: 0px 64px; }
+.twitter a { background-position: -60px 64px; }
+.facebook a { background-position: -120px 64px; }
+.rss a { background-position: -180px 64px; }
+
+.linkedin a:hover { background-position: 0px 0px; }
+.twitter a:hover { background-position: -60px 0px; }
+.facebook a:hover { background-position: -120px 0px; }
+.rss a:hover { background-position: -180px 0px; }
